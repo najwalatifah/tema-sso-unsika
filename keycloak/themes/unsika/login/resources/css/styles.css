@@ -1,0 +1,84 @@
+/* background blur */
+.unsika-bg {
+    min-height: 100vh;
+    background: url("../img/unsika.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* card */
+.login-card {
+    width: 420px;
+    padding: 32px;
+    background: rgba(220, 235, 250, 0.85);
+    backdrop-filter: blur(8px);
+    border-radius: 24px;
+    text-align: center;
+}
+
+/* logo */
+.logo img {
+    width: 90px;
+    margin-bottom: 12px;
+}
+
+/* subtitle */
+.subtitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+/* form */
+.login-form {
+    text-align: left;
+}
+
+.login-form label {
+    font-weight: 600;
+    margin-top: 12px;
+    display: block;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* password wrapper */
+.password-wrapper {
+    position: relative;
+}
+
+/* button */
+.btn-login {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background: linear-gradient(to right, #D22F27, #84272B);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    opacity: 0.9;
+}
+
+/* forgot */
+.forgot {
+    display: block;
+    margin-top: 14px;
+    text-align: center;
+    color: #800000;
+    text-decoration: none;
+    font-size: 14px;
+}
